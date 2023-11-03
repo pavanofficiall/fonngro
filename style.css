@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(8, 8, 44);
+}
+
+.section-p1{
+    padding: 25px ;
+}
+
+.section-m1{
+    margin: 27px 73px;
+}
+
+h1{
+    font-weight: 800;
+    color: greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar{
+   background-color: darkgreen;
+   border-radius: 7px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+}
+
+#pro-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#pro-nav img{
+    padding: 30px 80px;
+}
+
+
+#pro-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s ease;
+}
+#pro-nav a:hover{
+    color: greenyellow;
+}
+
+#hero{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav-links {
+    padding-top: 37px;
+}
+
+#hero-p{
+    padding-top: 200px;
+}
+
+#hero-p p{
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero-p p span{
+    color: rgb(179, 247, 78);
+    text-shadow: 2px 2px 9px rgb(19, 187, 19);
+}
+
+#hero-p h5{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px 25px;
+}
+
+#hero-p h6 span{
+    color: skyblue;
+    text-shadow: 2px 2px 9px white;
+}
+
+#hero-p h6{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px 175px;
+}
+
+#hero-all img{
+    margin-left: 900px;
+    width: 600px;
+    float: right;
+}
+
+#sharktnk .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  
+}
+#sharktnk .pro{
+    color: white;
+   margin-top: 200px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   line-height: 59px;
+}
+
+#info{
+    margin-top: 100px;
+    margin-bottom: 300px
+}
+
+#info h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+
+
+#info h2 span{
+    color: rgb(6, 164, 6);
+    text-shadow: 2px 2px 60px greenyellow;
+}
+
+#info p {
+    color: rgb(106, 160, 26);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+
+#info h3{
+    color: white;
+    line-height: 30px;
+    font-family: cursive;
+    text-align: end;
+    margin-top: 20px;
+}
+
+
+/* foter */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#imgg{
+    margin: 20px;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
